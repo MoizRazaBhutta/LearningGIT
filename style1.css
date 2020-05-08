@@ -1,0 +1,27 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#header{
+    color:blueviolet;
+}
+#form{
+    background-color: blueviolet;
+    color: white;
+}
+input{
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+#header1{
+    color: green;
+    text-align: center;
+}
+#header2,#header3  {
+    color:blueviolet;
+    text-align: center;
+}

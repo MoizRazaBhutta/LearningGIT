@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Registeration Form</title>
+    <link href='style1.css' rel="stylesheet">
+</head>
+<body>
+    <h1>Name: Abdul Moiz Raza</h1>
+    <h1>Roll No: WM1312</h1>
+    <div id='header'>
+        <img src="download.png" class='center'>
+        <h1 align='center'><u>STUDENT REGISTRATION FORM</u></h1>
+    </div>
+    <div id='form'>
+        <form method="POST" action="next.html">
+            <fieldset>
+            <p>FIRST NAME  <span style="margin-left:2.5em"></span><input type="text" required='required' name='firstname' maxlength="30" size="15" placeholder="Enter First Name"> (max 30 characters a-z and A-Z)</p>
+            <p>LAST NAME <span style="margin-left:2.8em"></span><input type="text" name='lastname' required='required' maxlength="30" size="15" placeholder="Enter Last Name"> (max 30 characters a-z and A-Z)</p>
+            <p>DATE OF BIRTH <span style="margin-left:1.2em"></span><input type="date" required='required'> </p>
+            <p>EMAIL ID<span style="margin-left:4.2em"></span><input type='email' placeholder='Enter Email Address' required='required'></p>
+            <p>MOBILE NUMBER&nbsp;<input type='number' placeholder='Enter Mobile Number' maxlength="10" required='required'>(10 digit number)</p>
+            <p>GENDER<span style="margin-left:4.4em"></span>MALE<input type="radio" name="Gender" value="male"/>FEMALE<input type="radio" name='Gender' value="female"/></p>
+            <p>ADDRESS <span style="margin-left:4.4em"></span> <textarea rows="4" cols="20" required='required'></textarea></p>
+            <p>CITY  <span style="margin-left:6em"></span><input type="text" name='city' maxlength="30" size="15" placeholder="Enter City Name" required='required'> (max 30 characters a-z and A-Z)</p>
+            <p>PIN CODE  <span style="margin-left:3.8em"></span><input type="number" name='PINCODE' maxlength="30" size="15" placeholder="Enter Pincode" required='required'> (6 digit number)</p>
+            <p>STATE  <span style="margin-left:5.4em"></span><input type="text" name='State' maxlength="30" size="15" placeholder="Enter State" required='required'> (max 30 characters a-z and A-Z)</p>
+            <p>COUNTRY  <span style="margin-left:3.6em"></span><input type="text" name='COUNTRY' maxlength="30" size="15" placeholder="Enter Country" required='required'></p>
+            <p>HOBBIES<span style="margin-left:4.2em"></span> Drawing<input type="checkbox"> Singing<input type="checkbox"> Dancing<input type="checkbox">Sketching<input type="checkbox"><br><span style="margin-left:8.7em"></span> Others<input type="checkbox"><input type="text"></p>
+            <p>QUALIFICATION 
+                <table >
+                    <tr>
+                        <th>S.No</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year Of Passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" required='required'></td>
+                        <td><input type="text" required='required'></td>
+                        <td><input type="text" required='required'></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" required='required'></td>
+                        <td><input type="text" required='required'></td>
+                        <td><input type="text" required='required'></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" required='required'></td>
+                        <td><input type="text" required='required'></td>
+                        <td><input type="text" required='required'></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text" required='required'></td>
+                        <td><input type="text" required='required'></td>
+                        <td><input type="text" required='required'></td>
+                    </tr>
+                </table></p>
+                <p>COURSES APPLIED<br> FOR<span style="margin-left:6em"></span>  BCA<input type='radio' value='BCA' name="Qualification"> B.COM<input type='radio' value="B.COM" name="Qualification"> BSc<input type='radio' value="BSc" name="Qualification"> BA<input type='radio' value="BA" name="Qualification"></p>
+                <p><span style="margin-left:25em"></span><input type="submit" value="Submit"><input type="reset" value='reset'> </p>
+
+            </fieldset>
+
+        </form>
+    </div>
+
+    
+</body>
+</html>
